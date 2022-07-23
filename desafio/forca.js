@@ -18,7 +18,7 @@ class Forca {
             this.vidas--
                 console.log("Errou")
         }
-        const letraDigitada = this.letrasChutadas.includes(letra)
+        const letraDigitada = this.letrasChutadas.includes(letra);
         this.letrasChutadas.push(letra)
 
     }
